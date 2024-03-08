@@ -2,7 +2,8 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import githubImg from "../assets/github.png";
+import githubImg from "./assets/github.png";
+import userData from "../users.json"
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <h2>Static Components</h2>
       </main>
       <img src={githubImg} alt="github icon" />
+      <p>{console.log(userData)}</p>
+      
 
       <footer className='footer'>
         <p>Kodehode</p>
