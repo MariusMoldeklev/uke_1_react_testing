@@ -2,6 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import githubImg from "../assets/github.png";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <main className='main'>
         <h2>Static Components</h2>
       </main>
+      <img src={githubImg} alt="github icon" />
 
       <footer className='footer'>
         <p>Kodehode</p>
