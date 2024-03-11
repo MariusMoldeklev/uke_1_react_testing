@@ -1,7 +1,7 @@
 // UserCard.jsx
-import {user} from "../src/data/users.json";
+import {user} from "./data/users.json";
 
-function UserCard({ user }) {
+function UserCard() {
   return (
     <div className="user-card">
       <h3>{user.firstName} </h3>
