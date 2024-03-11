@@ -1,7 +1,6 @@
 // src/UserCard.jsx
 
 import React from 'react';
-import userData from '../users.json';
 
 function UserCard({ user, showMore, handleShowMore }) {
   return (
@@ -15,6 +14,9 @@ function UserCard({ user, showMore, handleShowMore }) {
           <p>Gender: {user.gender}</p>
           <p>Email: {user.email}</p>
           <p>Phone: {user.phone}</p>
+          <p>Username: {user.username}</p>
+          <p>Birth Date: {user.birthDate}</p>
+          {/* Additional fields can be added here */}
         </div>
       ) : null}
       <button onClick={() => handleShowMore(user.id)}>
