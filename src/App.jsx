@@ -1,7 +1,7 @@
 // App.jsx
 
 import './App.css';
-import userData from '../users.json'; // Check this import path
+import userData from './data/users.json'; // Check this import path
 import Navbar from './Navbar';
 import UserCard from './userCard';
 // import { useState } from 'react';
