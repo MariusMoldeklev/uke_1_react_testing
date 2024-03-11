@@ -13,9 +13,8 @@ function App() {
         <Navbar />
       </header>
       <main className='main'>
-        <h2>Static Components</h2>
-      </main>
       <UserCard/>
+      </main>
       {console.log(userData)}
       <footer className='footer'>
         <p>random kontakt informasjon</p>
