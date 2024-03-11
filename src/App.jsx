@@ -26,17 +26,17 @@ function App() {
       </header>
       <main className='main'>
         <h2>Dyr som er tilgjengelige</h2>
-      </main>
       <div className='user-cards'>
         {/* {userData.map((user) => (
           <UserCard
-            key={user.id}
-            user={user}
-            showMore={showMore}
-            handleShowMore={handleShowMore}
+          key={user.id}
+          user={user}
+          showMore={showMore}
+          handleShowMore={handleShowMore}
           />
         ))} */}
       </div>
+        </main>
       <footer className='footer'>
         <p>Random kontakt info 3252 Bergen</p>
         <p>Telefon nr +47 123 45 678</p>
