@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <div className="navbar" >
             <div className="leftside">
-                <img src={Logo} alt="logo" />
+                <img src={Logo} alt="logo" className="logo" />
             </div>
             <div className="rightside">
                 <h2>Adopt a pet </h2>
