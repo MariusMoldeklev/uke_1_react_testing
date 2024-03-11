@@ -1,5 +1,5 @@
 // UserCard.jsx
-import {user} from users.json;
+import {user} from "../src/data/users.json";
 
 function UserCard({ user }) {
   return (
