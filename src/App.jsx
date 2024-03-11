@@ -2,19 +2,18 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import githubImg from "./assets/github.png";
 import userData from "../users.json"
+import Navbar from"./Navbar";
 
 function App() {
   return (
     <div className='app'>
       <header className='header'>
-        <h1>React Component</h1>
+        <Navbar />
       </header>
       <main className='main'>
         <h2>Static Components</h2>
       </main>
-      <img src={githubImg} alt="github icon" />
       <p>{console.log(userData)}</p>
       
 
