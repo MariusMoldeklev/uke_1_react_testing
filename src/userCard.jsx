@@ -4,7 +4,7 @@ import {user} from "./data/users.json";
 function UserCard() {
   return (
     <div className="user-card">
-      <h3>{user.firstName} </h3>
+      <h3>{user.users[0].firstName} </h3>
       {user.image}
       <p>Email: {user.email}</p>
     </div>
