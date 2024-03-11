@@ -1,6 +1,7 @@
 // src/UserCard.jsx
 
 import React from 'react';
+import userData from "../users.json";
 
 function UserCard({ user, showMore, handleShowMore }) {
   return (
