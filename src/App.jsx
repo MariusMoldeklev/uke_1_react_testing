@@ -6,7 +6,7 @@
 import './App.css';
 import userData from '../users.json';
 import Navbar from './Navbar';
-// import UserCard from './card';
+import UserCard from './card';
 import { useState } from 'react';
 
 function App() {
@@ -27,14 +27,14 @@ function App() {
       <main className='main'>
         <h2>Dyr som er tilgjengelige</h2>
       <div className='user-cards'>
-        {/* {userData.map((user) => (
+        {userData.map((user) => (
           <UserCard
           key={user.id}
           user={user}
           showMore={showMore}
           handleShowMore={handleShowMore}
           />
-        ))} */}
+        ))}
       </div>
         </main>
       <footer className='footer'>
