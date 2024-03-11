@@ -6,7 +6,7 @@
 import './App.css';
 import userData from '../users.json';
 import Navbar from './Navbar';
-import UserCard from './UserCard';
+import UserCard from './card';
 import { useState } from 'react';
 
 function App() {
