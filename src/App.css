@@ -1,5 +1,4 @@
 #root {
-  background-color:#61dafbaa ;
   height: 100vh;
   margin: 0 auto;
   padding: 0px;
@@ -43,3 +42,17 @@ main
   }
 }
 
+.main {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #61dafbaa;
+  gap: 1.25em;
+  padding-top: 20px
+}
+.user-card {
+  ;
+  background-color: #61dafbaa;
+  border-radius: 20px;
+  border: 4px black solid;
+}
