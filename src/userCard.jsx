@@ -1,12 +1,12 @@
 // UserCard.jsx
 import user from "./data/users.json";
 
-function UserCard() {
+function UserCard({user}) {
   return (
-    <div className="user-card">
-      <h3>{user.users[0].firstName} </h3>
-      <img src={user.users[0].image} alt="Profile Picture" />
-      <p>Email: {user.users[0].email}</p>
+    <div className="user-card" key={user.id}>
+      <h3>{user.firstName} </h3>
+      <img src={user.image} alt={`Profile Picture of ${user.firstName}`} />
+      <p>Email: {user.email}</p>
     </div>
   );
 }
