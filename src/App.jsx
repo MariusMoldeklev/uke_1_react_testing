@@ -22,6 +22,7 @@ function App() {
       <footer className='footer'>
         <strong><p>random kontakt informasjon</p></strong>
         <strong><p>tlf +47 123 45 678</p></strong>
+        <strong><p>Sorry everyone loves dogs, all thats left are cats</p></strong>
       </footer>
   </div>
   );
