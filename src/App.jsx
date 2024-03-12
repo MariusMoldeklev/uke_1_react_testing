@@ -20,8 +20,8 @@ function App() {
       </main>
       {console.log(userData)}
       <footer className='footer'>
-        <p>random kontakt informasjon</p>
-        <p>tlf +47 123 45 678</p>
+        <strong><p>random kontakt informasjon</p></strong>
+        <strong><p>tlf +47 123 45 678</p></strong>
       </footer>
   </div>
   );
